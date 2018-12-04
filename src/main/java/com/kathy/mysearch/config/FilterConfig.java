@@ -8,7 +8,7 @@ import org.springframework.web.filter.CharacterEncodingFilter;
 
 @Configuration
 public class FilterConfig {
-
+    
     @Bean
     public FilterRegistrationBean<CharacterEncodingFilter> addFilter() {
 
